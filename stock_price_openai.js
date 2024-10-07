@@ -30,8 +30,9 @@ async function askOpenAI(stockSymbol, stockPrice) {
 }
 
 (async () => {
-  const stockSymbol = 'EPAM';
+  const stockSymbol = 'AAPL';
   const stockPrice = await getStockPrice(stockSymbol);
   const aiResponse = await askOpenAI(stockSymbol, stockPrice);
+  // WHAT IF WE WANT TO DO SOMETHING BASED ON THIS LLM RESPONSE
   console.log(aiResponse);
 })();
