@@ -1,4 +1,7 @@
 {
+  "name": "borderless-langgraph",
+  "version": "1.0.0",
+  "type": "module",
   "dependencies": {
     "@langchain/core": "^0.3.7",
     "@langchain/langgraph": "^0.2.11",
