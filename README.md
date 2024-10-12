@@ -19,3 +19,4 @@ npm install dotenv axios @langchain/openai
 ### Resources
 
 https://academy.langchain.com/courses/intro-to-langgraph
+https://www.alphavantage.co/support/#api-key
